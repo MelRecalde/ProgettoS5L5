@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    margin-inline: 2%;
 }
 
 .trends {
@@ -51,7 +52,7 @@
 }
 
 .title-card {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 14px;
 }
