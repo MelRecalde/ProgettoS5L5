@@ -8,6 +8,32 @@
     display: flex;
 }
 
+article {
+    flex-direction: column;
+}
+
 .user {
     flex-direction: row;
 }
+
+.trend {
+    border: 1px solid peru;
+    flex-direction: row;
+    max-width: 49%;
+    flex: 0 0 30%;
+    padding: 1%;
+}
+
+.cardbox .title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.cardbox .date {
+    margin-top: 3%;
+    align-items: center;
+}
+
