@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+aside h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.topics {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0 0 30%;
+    gap: 3px;
+}
+
+.topics button {
+    border: 0.5px solid rgba(128, 128, 128, 0.445);
+    padding-block: 1.5% ;
+    background-color: white;
+}
+
+.categories {
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 0 10px;
+}
+
+.categories a{
+    text-decoration: none;
+    color: initial;
+}

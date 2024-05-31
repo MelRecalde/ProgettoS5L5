@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.user {
+    flex-direction: row;
+}
