@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+header {
+    border: 1px solid;
+    background-color: #ffc017;
+    padding: 2%;
+    border-bottom: 1px solid;
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top:0;
+}
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlist {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    max-width: 40%;
+}
+
+#navbar button {
+    border: none;
+    background-color: #ffc017;
+    margin: 1%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#navbar .mainBtn {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 3%;
+    max-width: 50em;
+}

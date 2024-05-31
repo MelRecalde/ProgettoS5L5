@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+main .container1 {
+    background-color: #ffc017;
+}
+
+#hero {
+    padding: 10%;
+    display: block;
+    gap: 30px;
+    max-width: 100%;
+}
+
+#hero h1{
+    font-size: 80px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+#hero p {
+    padding-bottom: 20px;
+}
+
+#hero button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding-inline: 5%;
+    padding-block: 1%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
