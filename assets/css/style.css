@@ -8,3 +8,7 @@ body {
     /*font-family: "Spectral", serif;*/
     font-family: "Roboto", sans-serif;
 }
+
+.container3 {
+    display: flex;
+}
